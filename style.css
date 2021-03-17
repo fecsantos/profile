@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Roboto:wght@300;500&display=swap');
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+body {
+  background-color: #f4f9f9;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  color: #383e56;
+  font-size: 16px;
+  line-height: 2;
+}
+
+h1 {
+  color: #314e52;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 2;
+}
+
+h2 {
+  color: #f0c929;
+}
+
+a {
+  text-decoration: none;
+  color: #383e56;
+  font-weight: bold;
+}
+
+p {
+  margin: 17px 60px 34px;
+}
+
+/*a:hover {
+  color: #1e212d;
+}*/
+
+.card-white {
+background-color: white;
+box-shadow: 0px 10px 20px rgb(0 0 0 0.1);
+border-radius: 4px;
+margin: 30px 0px;
+text-align: center;
+padding: 30px;
+}
+
+.container {
+width: 700px;
+margin: 40px auto;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.btn-blue {
+color: white;
+background-color: #046582;
+padding: 10px;
+border-radius: 3px;
+}
+
+.btn-blue:hover {
+  background-color: #1e212d;
+  color: white;
+}
+
+.list-inline {
+list-style: none;
+padding-left: 0px;
+}
+
+.list-inline li {
+display: inline;
+padding: 16px;
+}
+
+.list-inline i {
+font-size: 42px;
+color: rgb(230,230,230);
+}
+
+.list-inline i:hover {
+color: black;
+}
